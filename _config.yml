@@ -4,10 +4,10 @@ markdown:	kramdown
 permalink:	/blog/:title
 
 # Setup
-title:            Thinny
-tagline:          'blog'
-description:      'My personal blog.'
-url:              http://camporez.github.io
+title:            Cerebro Loco
+tagline:          ''
+description:      'Blog dedicado a la seguridad informÃ¡tica y otras cosas Frikis.'
+url:              http://cerebroloco.github.io
 baseurl:          
 commentsystem:    google
 disqus:           example
@@ -19,8 +19,8 @@ author:
 paginate:         5
 
 # Custom vars
-icon:             /assets/images/icon.png
-cover:            /assets/images/cover.jpg
+icon:             /assets/images/icono.png
+cover:            /assets/images/fondo.jpg
 
 social:
   - icon:         twitter
@@ -40,17 +40,17 @@ social:
     desc:         Subscribe to my feed
 
 menu:
-  - title:        Home
+  - title:        INICIO
     url:          /
 
-  - title:        About
+  - title:        ACERCA DE
     url:          /about
 
 copyright:
-  author:         Camporez
-  url:            http://camporez.github.io
-  type_title:     Some rights reserved
-  type_url:       http://creativecommons.org/licenses/by-nc/2.5
+  author:         torres
+  url:            http://cerebroloco.github.io/
+  type_title:     #Some rights reserved
+  type_url:       #http://creativecommons.org/licenses/by-nc/2.5
 
 parallax:         false
 
