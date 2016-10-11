@@ -4,7 +4,6 @@ title: Acerca de
 permalink: about/
 comments: true
 ---
-comments: true
 
 <div class="message">
   Hola!
