@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Compartir Internet por Ehternet de Windows a Linux"
-quote: "Debian y derivados"
+title: "Compartir Internet por Ehternet de Windows a Debian"
+quote: "Gnu Linux"
 image:
-      url:https://lh3.googleusercontent.com/2QJECk3Xdm0mAiFcNRSqH0yHvoYbah_1YcYS7nDawY7l7HxsksAc2dHnxx9qnOP7hXuzoE3J7-4Hts6cTAjcxxS8E5N9CRAWSPnxO9JCK3vk2sHEN205I4nV1enWrrK_gL9u2JvJtI19p7BLRWIDBEJZ0M1O4yR4uuIy7JjaaCdVOOVhsM4TTcsu3RvSe9eJVM8oCoODUpNxVGu5y9gutUb9wTEDRA8WsTG1k7A_LJy2pYl9fDt5xQ3ul-CYin5J9nr5ZJHw_h_4gQv6HiaTGM92AzHjh_zNqgZY6Aq3KnidRmyI5eIsWj98iUUgY665-IQxDOpP7o0MXii9uSXW4IVdin5_x6xUQh2h0qWtKfxsbrweMwKY0bzq4fTT_81aw9ae-pmBWZneuOxk5WZkLXh3r0aPaNWp7q9mkiGs2m6WBBAWOd76SS6y2UKbnphp1CxzqExChIVBT4mf4JuHZqxKoghuRFuCCIM4uLwG2zSvevsEv_UHHt5xNJHwKZadnVKqMFW2yuGEOPa360w7nqyzNgpGiUcCzxZeTAFW83OCTnZ8z3_ybh8lDY9LrzYenuRN_-teO6viXg2XIr5ZUgcuPaSpc0tUqVRnbz-O_Yfy3KI=w737-h492-no
+      url:/assets/images/fondo.jpg
 video: false
 comments: true
 theme_color: 302F2D
