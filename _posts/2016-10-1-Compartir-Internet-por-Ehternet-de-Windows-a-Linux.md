@@ -14,15 +14,15 @@ Bueno esta vez mostrare como compartir internet mediante Ethernet, resulta que h
 ### Configurando Windows
 
 Presionamos la tecla `inicio + R` y escribimos `NCPA.CPL`.
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOfLFR5T3tJfwpWV5sJE7dapselFgGMpmpviqlD?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" width="100%" description="Amanda Seyfried as Cosette on the 2012 movie." %}
+{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOfLFR5T3tJfwpWV5sJE7dapselFgGMpmpviqlD?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
 
 
 Una vez dentro de conexiones de red seleccionamos `WI-FI` y le daremos click derecho y hacemos click en`propiedades`.
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipO-uqTJ65vAxHkNbprjXPGDvZ_qlYcknUMiOPaO?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" width="100%" description="Amanda Seyfried as Cosette on the 2012 movie." %}
+{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipO-uqTJ65vAxHkNbprjXPGDvZ_qlYcknUMiOPaO?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
 
 
 Ya dentro de las propiedades nos vamos a la pestaña de `Uso compartido` y seleccionamos las opciones marcadas y damos click en aceptar.
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipMYMc2X9W_cwhJeBTt5kL8na1PFP-3-VrKiFgbf?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" width="100%" description="Amanda Seyfried as Cosette on the 2012 movie." %}
+{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipMYMc2X9W_cwhJeBTt5kL8na1PFP-3-VrKiFgbf?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
 Con esto ya estamos compartiendo internet por ethernet.
 
 ### Configurando Debian.
@@ -32,7 +32,7 @@ Editamos el siguiente fichero de configuración:
 sudo nano /etc/network/interfaces
 ~~~
 mostrara la siguiente ventana:
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipM_UKvvbgQU5bCCtipj8CkecR9Fxa-YECgwnZn-?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" width="100%" description="Amanda Seyfried as Cosette on the 2012 movie." %}
+{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipM_UKvvbgQU5bCCtipj8CkecR9Fxa-YECgwnZn-?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
 
 Ahora agregamos las siguientes lineas:
 ~~~
@@ -45,7 +45,7 @@ gateway 192.168.1.1
 ~~~
 Con esto estamos indicando que la interfaz haga un loopback y la eth0 se levante de forma automática, sea estática, tenga esa IP, esa máscara y asignada esa puerta de enlace predeterminada.
 
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOp01kmjHlzs9-HkE-Ev_c_Tp7JmZVIJj7F07x4?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" width="100%" description="Quedaría de esta manera." %}
+{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOp01kmjHlzs9-HkE-Ev_c_Tp7JmZVIJj7F07x4?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" description="Quedaría de esta manera." %}
 
 Una vez realizados los cambios debemos de reiniciar el servicio, para ello podemos:
 1. Pararlo y levantarlo completamente (recomendado):
