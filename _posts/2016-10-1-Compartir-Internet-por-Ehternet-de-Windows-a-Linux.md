@@ -9,7 +9,7 @@ comments: true
 theme_color: 302F2D
 ---
 
-Bueno esta vez mostrare como compartir internet mediante Ethernet, resulta que hace poco instale  Debian en mi Notebook y bueno  me encontré con un problema en la tarjeta inalámbrica debido a que Debían no añade por defecto soporte de software no-libre y por lo tanto no tenía acceso a wifi y para acceder a internet solo era posible mediante Ethernet así que como contaba con otra notebook con Windows que tenía acceso a la conexión wifi, así es que esta era mi única opción ya que solo me están proveyendo el internet, _empecemos_...
+Bueno esta vez mostrare como compartir internet mediante Ethernet, resulta que hace poco instale  Debian en mi Notebook y bueno  me encontré con un problema en la tarjeta inalámbrica debido a que Debian no añade por defecto soporte de software no-libre y por lo tanto no tenía acceso a wifi y para acceder a internet solo era posible mediante Ethernet así que como contaba con otra notebook con Windows que tenía acceso a la conexión wifi, así es que esta era mi única opción ya que solo me están proveyendo el internet, _empecemos_...
 
 ### Configurando Windows
 
