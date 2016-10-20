@@ -14,7 +14,7 @@ Bueno esta vez mostrare como compartir internet mediante Ethernet, resulta que h
 ### Configurando Windows
 
 Presionamos la tecla `inicio + R` y escribimos `NCPA.CPL`.
-{% include image.html url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOfLFR5T3tJfwpWV5sJE7dapselFgGMpmpviqlD?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
+{% include url="https://photos.google.com/share/AF1QipPfJLKJhFA7YsKGRGeAu7AklW989gwET0g3heib4u-a0BMeY1Rx8m-cq8IgLri4yQ/photo/AF1QipOfLFR5T3tJfwpWV5sJE7dapselFgGMpmpviqlD?key=NGVsVkllb1dKZWtCRmNoRUVjNEE1Mk9OYm4zR0d3" %}
 
 
 Una vez dentro de conexiones de red seleccionamos `WI-FI` y le daremos click derecho y hacemos click en`propiedades`.
