@@ -17,6 +17,6 @@ seguridad y desarrollador de Linux,
 Este problema se localiza en el subsistema de memoria del kernel, en el proceso de copia virtual de operaciones en escritura. 
 Esto quiere decir que un atacante local podría usar esto para obtener privilegios de administrador(root).
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VyVXXsj2-v0&feature=youtu.be)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/VyVXXsj2-v0)
 
 Video de Prueba de concepto en Debian. 
