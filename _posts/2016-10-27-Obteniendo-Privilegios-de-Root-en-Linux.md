@@ -9,7 +9,7 @@ comments: true
 theme_color: 302F2D
 ---
 
-{% include image.html <center> url="http://bit.ly/2dTLEfp" </center>%}
+{% include image.html url="http://bit.ly/2dTLEfp" %}
 
 Resulta que hace unos dias se publico un exploit conocido como Dirty COW o CVE-2016-5195 descubierto por Phil Oester,un experto en 
 seguridad y desarrollador de Linux,
