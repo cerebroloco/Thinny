@@ -4,7 +4,7 @@ title: "Obteniendo Privilegios de Root en Linux (Vaca Sucia)"
 quote: "Gnu Linux"
 image:
       url:/assets/images/fondo.jpg
-video: false
+video: true
 comments: true
 theme_color: 302F2D
 ---
