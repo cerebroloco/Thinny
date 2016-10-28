@@ -10,6 +10,7 @@ theme_color: 302F2D
 ---
 
 Bueno esta vez mostrare como compartir internet mediante Ethernet, resulta que hace poco instale  Debian en mi Notebook y bueno  me encontré con un problema en la tarjeta inalámbrica debido a que Debian no añade por defecto soporte de software non-free y por lo tanto no tenía acceso a wifi y para acceder a internet solo era posible mediante Ethernet, como contaba con otra notebook con Windows que esta tenia conexion a wifi y mi unica opcion seria compartir el internet mediante ethernet ya que no tenia acceso fisico al router, _empecemos_...
+
 Nota:Esto tambien podria servirles a aquellos que estan colgados de la red Wifi del Vecino lol
 
 ### Primero Configuramos Windows
