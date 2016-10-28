@@ -4,7 +4,7 @@ title: "Obteniendo Privilegios de Root en Linux (Vaca Sucia)"
 quote: "Gnu Linux"
 image:
       url:/assets/images/fondo.jpg
-video: true
+video: false
 comments: true
 theme_color: 302F2D
 ---
@@ -17,6 +17,10 @@ seguridad y desarrollador de Linux,
 Este problema se localiza en el subsistema de memoria del kernel, en el proceso de copia virtual de operaciones en escritura. 
 Esto quiere decir que un atacante local podría usar esto para obtener privilegios de administrador(root).
 
-[![IMAGE ALT TEXT HERE](http://bit.ly/2e68GmL)](https://youtu.be/VyVXXsj2-v0)
+Video de Prueba de concepto en Debian.
 
-Video de Prueba de concepto en Debian. 
+<a href="https://youtu.be/VyVXXsj2-v0" 
+target="_blank"><img src="http://bit.ly/2e68GmL" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+ 
