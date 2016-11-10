@@ -21,7 +21,7 @@ Esto quiere decir que un atacante local podría usar esto para obtener privilegi
 <strong>Video de Prueba de concepto en Debian.</strong>
 
 <a href="https://youtu.be/VyVXXsj2-v0" 
-target="_blank"><img src="http://bit.ly/2e68GmL" 
+target="_blank"><img src="http://bit.ly/2eUVO0Y" 
 alt="IMAGE ALT TEXT HERE" width="340" height="280" border="8" /></a> 
 
  
