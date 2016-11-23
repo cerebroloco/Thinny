@@ -59,10 +59,11 @@ En el directorio C:\Windows\System32 buscamos `cmd.exe` y damos click en abrir y
 Con esto obtendríamos el cmd con permisos de Administrador, es decir que no tendríamos ninguna restricción para realizar una acción.
 {% include image.html url="http://bit.ly/2fE2alB" %}
 
-Por ultimo si queremos quitar la contraseña del usuario en mi caso es Torres hacer lo siguiente.
+Por ultimo si queremos quitar la contraseña del usuario hacer lo siguiente.
+
 1.-Ponemos `net user` para que nos muestre la lista de cuentas de usuario del equipo.
-2.-ahora ponemos `net user "usuario" *` con * lo que estamos diciendo que queremos hacer el cambio de contraseña y presionamos 2 veces Enter 
-para que las nuevas contraseñas estén vacías y con esto ya podremos inciar sesión en Winbugs XD.
+
+2.-ahora ponemos `net user "usuario" *` con * lo que estamos diciendo que queremos hacer el cambio de contraseña y presionamos 2 veces Enter para que las nuevas contraseñas estén vacías y con esto ya podremos inciar sesión en Winbugs XD.
 {% include image.html url="http://bit.ly/2gfWMZC" %}
 
 ```
