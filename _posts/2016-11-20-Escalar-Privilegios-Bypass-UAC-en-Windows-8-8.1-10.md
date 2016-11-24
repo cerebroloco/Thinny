@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Escalar Privilegios Bypass UAC en Windows 8-8.1-10"
-quote: "Hacking"
+quote: "Hacking General"
 image:
       url:/assets/images/fondo.jpg
 video: false
