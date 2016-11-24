@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como acceder a Windows como Administrador sin saber la contraseña"
-quote: "Acceso Físico"
+quote: "Hacking General"
 image:
       url:/assets/images/fondo.jpg
 video: false
