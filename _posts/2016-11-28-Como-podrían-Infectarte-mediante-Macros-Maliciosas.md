@@ -20,18 +20,19 @@ Como el Ransonware llamado Locky  que se propaga en el sistema a través de un m
 los archivos como documentos, imágenes etc con extensión .locky junto con una nota de rescate y se tiene que pagar mediante Bitcoins para el rescate de los archivos.
 
 
-Pueden ver en este [enlace el video sobre que es un ransonware y como protegerte](https://www.youtube.com/watch?v=xpFU4n2iHN8).
+Que es un Ransonware y como protegerte [VER VIDEO](https://www.youtube.com/watch?v=xpFU4n2iHN8).
 
-Ahora es momento de empezar con nuestra prueba de concepto para eso usare una presentación en PowerPoint donde insertare una macros maliciosa, 
+##POC Documento Malicioso
+Es momento de empezar con nuestra prueba de concepto para eso usare una presentación en PowerPoint donde insertare una macros maliciosa, 
 aunque también se podrían usar documentos como Word o Excel.
 
-En este caso he generado dos archivos uno llamado powershell_attack.txt que es la macros maliciosa y unicorn.rc está la usare para poner la conexión a la escucha.
+En este caso he generado dos archivos uno llamado `powershell_attack.txt` que es donde contiene la macros maliciosa y `unicorn.rc` está la usare para poner la conexión a la escucha.
 {% include image.html url="https://lh3.googleusercontent.com/Wp1LByh-mjafXCWCzW8Xk7d73QRDdNier3_QNf13YZelS3WIA6e5L945xFffAxm6m2qENN5XasP6Aq_vzuoTA9b5Vb30hx7NZezZWtxTjKUL8bLdv-0wSbhO-FU5QkgP8xsR3X3jNifyFd3F176phsinOt86zyfLDktcrj0f7NA_3k2HfneCI7oWiDdriqZ6mfhhfBoJtBjAVhCrnpMbI3c9btup6DHDBdU-HRDw6_CpGe5LjEaP2b1tAtWumdGL1Kt40mXGjkrk66kIZORMDO-Rh-hOH8O_e8GaSJBUzZIs3gm9LhQxiUCXUdWaTXYxW1BTl9Ldag-V_FpkD_zQXLj6C-lHMTLX1THIM_1mUGINacdthTgvB0T277HAKv6lYBgWqFMrnbUouq-8Xv7WRWkGM-nsT5Kis5--vGciceIKedz6G_rLWjjNe0tp5Yxuu6hJZGIdU2koVJZok33r_d5LCNZWn_FGY5DCnY0D36-K2j6YPFWmXZVDojyZ15TwQ6FabrTnGCES2vtRZztACm89qPaboLettnbt-5WNB6ErDWUWL6U81Ac-GQcx3kdgGu-YWNNILHQI1JX_EEvudefZj7O56gZHBz58oUgNxQrX8HNb=w872-h574-no" %}
 
 Ahora pasare a Windows y creare una presentación en PowerPoint, como ejemplo solo he puesto una imagen religiosa, me voy a la opción macros y creo uno nuevo.
 {% include image.html url="https://lh3.googleusercontent.com/gUzwkuIE--KjEX97rs1gUIt-QmVeBvpBvPIF4Gq2R1XMHPR_5Agl04-aMrBEsTlEWXBp1GM6cZ4YvozU_oqRPFib1rzO5mpA6MvRi8p_DXnKzckx29lvvHvTS_irdnPvf1NGAME7zIk0KPOKnjQZ0lH3xw9buC3cupwjsSytQpo9pNVTNzYwqtYJORXJ-yGy6XTxBK9j_x3WAl6dqnKWWp3-3AFsiDIaaYnaLuz2rx4DDf8ZlQ_z85Xhp-c7lYK3wZsdSK0UmsjzcLtOIfy037LCOdoqUmOou1R1QJ9Ec4vz7iWaJQBVtXe9U1Gcq-w_O_d1q9RndTLF888ZK10UmZo8FKCGzJIeWg474uURkG48U8pk9gj6bNQ-1po_K0wYOq_M8_2uE9ZpS6NW8YZHOPEyIuerEWH1y6hTwaqn0Rtszio_6EuiBsNW525vLR2U0jmURHOXoXEwQJ7YexEObUGUDoyqp2_KqGit8F0FHfAEAv4-TuLDvX_N_XtlxqBkuEHgD2Fo1IFFrIFQMeJmddc5rEiCnSgEmHMuiSvZUCmMnVXtGClh2LsW1niI0lh0yIlPevfaPDevt3o0dGXLPN3Iu1K3QO3u3W8EBiJ8xX7Gb8lO=w1178-h662-no" %}
 
-Abrirá el editor de Microsoft Visual Basic para Aplicaciones, aquí pondré el código de la macros maliciosa que lo tengo en el archivo llamado powershell_attack.txt, quedara de esta manera:
+Abrirá el editor de Microsoft Visual Basic para Aplicaciones, aquí pondré el código de la macros maliciosa que lo tengo en el archivo llamado `powershell_attack.txt`, quedara de esta manera:
 {% include image.html url="https://lh3.googleusercontent.com/vynZ4sNdZJ2nXBd2Ut7bVGlyHyv2dvqG0UBQxiV0jmvp3dOhleJxhTp3g0d-dmv5pKHrsxGRVD9yb2HVFFwG5WHQN1llOWyERZ6t6mGF-anMXeg9qklD-3xB6RERJQ5ok2stJoXkEQm6vY5LACBCp7Mk0ZkVssQJ1nqFGepTbpgZ3YEVqpSHyEFn12yPs1fK1YC09y6D0THiCpIFKAZLM1IcYLsAEDOZAy4dZSCnVoKM5AVUsSDqmZVogp1s5L2McjH1bW8jVOqOGrPH5DuQbyRa00NM2t_Fz1zXWV7V6D4oBYkmBFPHCcFGq_OkaAyQbChL0OJPNoPWzwxFKa4PxPFkwmh1e0_-GUmG33xI-wQ5PXTcOA_sYSLH-VofVryInnrW6sdq1XiFVt4G8eVd9f9LgskrgppFk19YbHIay8m7sHXC9mR-dKJ4FI2nZRkMFp5uttZ7pAtbSAHJsaZDPPXNH9zzcrXQe8dx_UqSOsWYsRZ2gUFuZHIp8oPN8zZ12_4gtfkkw9XlJ2v2Iu5tT-Iv2Y7-7-KS-rzMplayTT1047-A2djknxkhKsaMtTEdCdCtf_wswJV3im0qcVeTCkgtlfm_drkSM5FWHg6_7Xc6ti03=w1178-h662-no" %}
 
 Y se guarda como `Presentación con Diapositivas de PowerPoint habilitada para macros`, con esto estamos habilitando las macros.
