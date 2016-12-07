@@ -5,7 +5,7 @@ permalink: about/
 comments: true
 ---
 
-{% include image.html url="http://bit.ly/2h3b7WB" description="CAMPUS PARTY GUADALAJARA 2014" %}
+{% include image.html url="http://bit.ly/2h3b7WB" width="10%" description="CAMPUS PARTY GUADALAJARA 2014" %}
 
 <div class="message">
   Hola!
