@@ -5,8 +5,6 @@ permalink: about/
 comments: true
 ---
 
-{% include image.html url="http://bit.ly/2h3b7WB" width="10%" description="CAMPUS PARTY GUADALAJARA 2014" %}
-
 <div class="message">
   Hola!
 </div>
@@ -18,6 +16,7 @@ Por último,Solo me queda decirles Bienvenid@s a mi Mundo.
 
 <strong>"By Torres"</strong> Happy Hacking.
 
+{% include image.html url="http://bit.ly/2h3b7WB" description="CAMPUS PARTY GUADALAJARA 2014" %}
 
 
 
