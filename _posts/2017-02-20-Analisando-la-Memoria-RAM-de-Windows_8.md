@@ -9,7 +9,9 @@ comments: true
 theme_color: 302F2D
 ---
 Uno de los temas que más me apasiona es el Análisis Forense así que hoy mostrare como podemos obtener información útil de la memoria RAM.
-###DUMP DE LA MEMORIA RAM
+
+### DUMP DE LA MEMORIA RAM
+
 Empezaremos por realizar una copia bit a bit de la memoria RAM, es decir una copia exacta, en mi caso usare la herramienta `FTK Imager` [Descargar FTK Imager](https://mega.nz/#!2xUUyQ4a!STKxDblF7sAshZtKoI5SzJ67UT0PacRnlXLgji2Il9E).
 {% include image.html url="http://bit.ly/2mklFTV" %}
 
@@ -21,7 +23,7 @@ Seleccionamos el destino de la copia y capturamos memoria.
 {% include image.html url="http://bit.ly/2mf5BWL" %}
 {% include image.html url="http://bit.ly/2lMN0Ae" %}
 
-###ANALISIS DE LA MEMORIA RAM
+### ANALISIS DE LA MEMORIA RAM
 
 Una vez que ya hemos obtenido la copia de la memoria tenemos que analizarla para eso usaremos la herramienta `volatility`.
 
@@ -53,5 +55,9 @@ Con `callbacks` Imprime rutinas de notificación de todo el sistema.
 
 Con `Modules` Imprime lista de modulos cargados.
 {% include image.html url="https://lh3.googleusercontent.com/iHMjEhPDEfYwNEZUPTjVPM_pI2PTraRHofnOifZWONVGlHJuNQo9blKoe9bdwDDmmLgaKsAL28fpt1i7Olk9ItEyDDIEaMo9MeQijeptiNQNb8C2t3D4AcBxXgCzK0nLKWGJNOuhEecv8uuoxwieeChXMk_vdXMHCXR-m7A9dxxZgRXic4wLJEB-IWuhHGUD8ub8hmLPZaTJ_bzTlDPP0SrkALmX3O5gzokrSJM1hmW5XtWwjtQDAgnXo9I_lxOHSH72uvYsX6VBewYdn97IZf74Xd_wxzqGCSNyRJHdCNnHnA4OKywBdiTM1HcQ-Z3kPF4KpWaPu135SPtBeRh9Z2d5o7QjOpg0NCEiCd_n5-FdWGozRDJ1UWs3En1BmhoIVnD5Epbw1A8966vW7mI-7Nn4g_AgZMCOBzrqI0O8hS11wsYMhOivJFVfoOMi_WoUDWRkpbKdgNc4ScpmwO9vpaJrji011SOXOxbP7GMbR4W9Vo_cvzJuMVcX11dc8cpBNMt8BASKvGHl8XE-ZLi30LIDWSuf7oDQofUAx3APZEhXqEKqdK4e2JhFp7LcEw0pggi9AGOHRbjeq86GdrTSKTMRaxfEUkQfZsoXukAZwvChC3asLvwW4UPhoZ9XoRB7c5JxAz5XoYwUYhx2vezC3-ioD6wuyAOwXUXGDHEA1Q=w914-h592-no" %}
+
+<div class="message">
+Como dato extra me di cuenta que algunos de los modulos de volatility que funcionan bien en sistemas windows 7 no todos funcionan en windows 8.  
+</div>
 
 By Torres
