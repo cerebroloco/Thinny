@@ -9,8 +9,8 @@ comments: true
 theme_color: 302F2D
 ---
 Uno de los temas que más me apasiona es el Análisis Forense así que hoy mostrare como podemos obtener información útil de la memoria RAM.
-
-Empezaremos por realizar una copia bit a bit de la memoria RAM, es decir una copia exacta, en mi caso usare la herramienta `FTK Imager`.
+###DUMP DE LA MEMORIA RAM
+Empezaremos por realizar una copia bit a bit de la memoria RAM, es decir una copia exacta, en mi caso usare la herramienta `FTK Imager` [Descargar FTK Imager](https://mega.nz/#!2xUUyQ4a!STKxDblF7sAshZtKoI5SzJ67UT0PacRnlXLgji2Il9E).
 {% include image.html url="http://bit.ly/2mklFTV" %}
 
 Ahora seleccionamos `Capture Memory`. 
@@ -20,6 +20,8 @@ Ahora seleccionamos `Capture Memory`.
 Seleccionamos el destino de la copia y capturamos memoria.
 {% include image.html url="http://bit.ly/2mf5BWL" %}
 {% include image.html url="http://bit.ly/2lMN0Ae" %}
+
+###ANALISIS DE LA MEMORIA RAM
 
 Una vez que ya hemos obtenido la copia de la memoria tenemos que analizarla para eso usaremos la herramienta `volatility`.
 
@@ -37,7 +39,7 @@ Seleccionamos el perfil en mi caso como es el de un sistema Windows 8 selecciona
 Win8SP1x86 
 ```
 
-Si queremos saber que procesos estaban activos en el momento usaremos `Pslist`.
+Si queremos saber que procesos estaban activos en el momento que realizamos el DUMP de la memoria usaremos `Pslist`.
 {% include image.html url="http://bit.ly/2lh20n0" %}
 
 Con el comando `Pstree` mostrara una lista de procesos en forma de árbol.
