@@ -39,7 +39,7 @@ con algunos fallos que me han llevado hasta la base de datos de este Tecnológic
 
 {% include image.html url="http://bit.ly/2sxKDlN" %}
 
-Como instituciones educativas es su responsabilidad en brindar una mejor seguridad a sus Alumnos y no exponer de manera fácil toda la información 
+Creo que como instituciones educativas es su responsabilidad en brindar una mejor seguridad a sus Alumnos y no exponer de manera fácil toda la información 
 que debería de ser (privada).
 
 Con esto está demostrado en como un atacante con intenciones maliciosas podria aprovechar de estos fallos y hacer mal uso de estos. 
