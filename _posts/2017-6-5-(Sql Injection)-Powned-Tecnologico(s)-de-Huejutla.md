@@ -42,7 +42,7 @@ con algunos fallos que me han llevado hasta la base de datos de este Tecnológic
 Como instituciones educativas es su responsabilidad en brindar una mejor seguridad a sus Alumnos y no exponer de manera fácil toda la información 
 que debería de ser (privada).
 
-Con esto está demostrado en como un atacante con intenciones maliciosas puedria aprovechar de estos fallos y hacer mal uso de estos. 
+Con esto está demostrado en como un atacante con intenciones maliciosas podria aprovechar de estos fallos y hacer mal uso de estos. 
 
 Las vulnerabilidades ya fueron REPORTADAS con sus posibles soluciones!!
 
@@ -50,9 +50,7 @@ Toda la información obtenida me he deshecho de ella, ya que este post fue hecho
 
 <div class="message">
 “¿Mi más grande motivación? Seguir retándome a mí mismo. Veo la vida como una larga educación universitaria que nunca tuve- 
-todos los días estoy aprendiendo algo nuevo”.
-
-Richard Branson.  
+todos los días estoy aprendiendo algo nuevo”.    Richard Branson.  
 </div>
 
 Saludos By Thorrez.
