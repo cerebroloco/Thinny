@@ -10,7 +10,7 @@ theme_color: 302F2D
 ---
 
 Hace algún tiempo nos reunimos algunos miembros de la CUM, lo mejor fue conocer a grandes personalidades de la seguridad informática y 
-convivir de cerca con ellos, bueno pues uno de ellos era el buen Ligthos. Asi que hablare de una de sus herramientas llamada 
+convivir de cerca con ellos, bueno pues uno de ellos era el buen LightOS. Asi que hablare de una de sus herramientas llamada 
 Credmap. ~~Gracias por lo consejos sigo dándole duro a Python XD!!~~ 
 
 Uno de los problemas más comunes de los usuarios al momento de registrarse en un sitio web, es la reutilización de contraseñas está 
@@ -19,7 +19,7 @@ en el uso de contraseñas distintas para todos los servicios web que usamos.
 
 ### Credmap
 
-Credmap desarrollada por R. Salgado a.k.a Ligthos. Es una herramienta para verificar credenciales en varios sitios populares de manera rápida. 
+Credmap desarrollada por R. Salgado a.k.a LightOS. Es una herramienta para verificar credenciales en varios sitios populares de manera rápida. 
 Esta herramienta es útil durante pruebas de penetración y análisis de vulnerabilidades para automatizar la identificación de 
 reutilización de contraseñas. 
 Fue presentada en Black Hat Europe 2015.
@@ -49,6 +49,5 @@ Luego pide alguna contraseña que se usa.
 Comienza el proceso de verificacion en diversos sitios para ver si la contraseña que usa en ese sitio (Ejemplo:Facebook) la usa en los demas!!.
 {% include image.html url="https://lh3.googleusercontent.com/BItt8u3O51cDdQYPRtXsW2r1S9FaOdeNPLP6wUQfyljSYQjUcGe7d9In4e-Ek8Zz1yOLknqM858i5jxBZ5oLK0KXd3_MjFdPXra3-NmqqhcJGBSwZjCgTQ7TogCI-N9mqNXOZHinWMzKXgppfqQongONTm_Uv-NZ758S1D2fBiYaqWgGMZ4HXwXaDHoX-6iguR9bcDAJt0P3tXkj-vdGytQD-Iyxq3HLSUryYYloBAFdQbhGsXvVnm7cj4Kq29RVpNAo9sihBqaQ5ZE8hVhFu80t1f_JazyFu0-Q_i_upqkVFTtAF3MA8-SZpkxxBP9bslo66D4bpmXxXSDNDKAXxGPB6_y4Vei8Z8KR_MfbufnD_2eK6XmC7mV8j6qXIrbCHrPHoEuuJve68EO-62PGXslvLcV2Iq4av4IENzUNMKYiUNnkJO9qIaGHmQyg4907AVv2xRM1wvs-LdIC0pfRFo0R3m_Ygbi10VQGnZDueTzz9Y3ec4VJ5yBMg3LDsC0hkIP3JkE_tEwZdsY8y2_G_UFvzjBrNBE4w4WJ4uB94cm0Hm_Vgh_FCMiY4yNXsVn_bGXsTCsvnQPlN28YuwT1SzwrFOXz0J8XxnEHJGHFdEaJbYO7umE1FkwItNXLuMPELxUFv1fW4fl37g0AJcs6N_6tNBC5M_W2aeu3cli5xQ=w658-h412-no" %}
 
-Nuevamente Gracias Ligthos por cierto una herramienta excelente !!!!
-
+Espero que esto sea de ayuda, Gracias por leerme!!
 By Thorrez
