@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Credmap:The Credential Mapper"
-quote: "Analisis Forense"
+quote: "HACKING"
 image:
       url:/assets/images/fondo.jpg
 video: false
